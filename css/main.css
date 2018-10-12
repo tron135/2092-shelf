@@ -1,0 +1,63 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0% 1% 0% 1%;
+	background-image: url(../img/shelf-bg.jpg);
+}
+
+nav{
+	margin-top: 162px;
+	background: black;
+	opacity: 0.6;
+	height: 60px;
+}
+
+#display-4{
+	color: white;
+	font-weight: 400;
+}
+
+#lead{
+	color: white;
+	font-weight: 400;
+}
+
+.jumbotron{
+	margin: 0;
+	margin-left: 0;
+	background-image: url(../img/header-01.jpg);
+	background-size: cover;
+	height: 400px;
+	width: 98%;
+	color: #d9d9d9;
+	border-bottom: 10px #004d99 solid;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#jumbo{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.nav-link{
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#nav:hover{
+	color: #b3d1ff;
+}
+
+.active{
+	color: #b3d1ff;
+}
+
+#nav{
+	padding: 10px 50px 0 50px;
+}
+
+#a-cont{
+	background: white;
+	color: #4d4d4d;
+}
