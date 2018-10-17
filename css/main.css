@@ -15,11 +15,13 @@ nav{
 #display-4{
 	color: white;
 	font-weight: 400;
+	padding-left: 70px;
 }
 
 #lead{
 	color: white;
 	font-weight: 400;
+	padding-left: 70px;
 }
 
 .jumbotron{
@@ -35,6 +37,7 @@ nav{
 }
 
 #jumbo{
+	width: 100%;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
@@ -60,4 +63,47 @@ nav{
 #a-cont{
 	background: white;
 	color: #4d4d4d;
+	padding-left: 40px;
+}
+
+#page{
+	margin-top: 60px;
+	background: white;
+}
+
+#active{
+	color: white;
+	background: #076599;
+}
+
+#plink{
+	color: black;
+}
+
+#plink:hover{
+	background: #076599;
+	color: white;
+}
+
+#links{
+	margin-bottom: 0;
+}
+
+#shree{
+	color: black;
+}
+
+#shree:hover{
+	text-decoration: none;
+	color: #33adff;
+}
+
+.page-item{
+	padding-left: 10px;
+}
+
+figcaption{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 15px;
 }
