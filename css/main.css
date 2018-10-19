@@ -6,10 +6,10 @@ body{
 }
 
 nav{
-	margin-top: 162px;
+	margin-top: 217px;
 	background: black;
-	opacity: 0.6;
-	height: 60px;
+	opacity: 0.7;
+	height: 80px;
 }
 
 #display-4{
@@ -22,6 +22,7 @@ nav{
 	color: white;
 	font-weight: 400;
 	padding-left: 70px;
+	font-size: 23px;
 }
 
 .jumbotron{
@@ -29,7 +30,7 @@ nav{
 	margin-left: 0;
 	background-image: url(../img/header-01.jpg);
 	background-size: cover;
-	height: 400px;
+	height: 480px;
 	width: 98%;
 	color: #d9d9d9;
 	border-bottom: 10px #004d99 solid;
@@ -57,7 +58,7 @@ nav{
 }
 
 #nav{
-	padding: 10px 50px 0 50px;
+	padding: 2.4% 6% 0 6%;
 }
 
 #a-cont{
@@ -73,15 +74,16 @@ nav{
 
 #active{
 	color: white;
-	background: #076599;
+	background: #004d99;
 }
 
 #plink{
 	color: black;
+	background: #ccc;
 }
 
 #plink:hover{
-	background: #076599;
+	background: #004d99;
 	color: white;
 }
 
@@ -106,4 +108,195 @@ figcaption{
 	font-size: 18px;
 	text-align: center;
 	padding-top: 15px;
+}
+
+#b-cont{
+	background: #076599;
+	color: white;
+}
+
+.aside{
+	padding-top: 5%;
+	width: 100%;
+	height: 330px;
+	padding-right: 3%;
+	padding-left: 25%;
+	font-size: 20px;
+}
+
+button{
+	background: #076599;
+	padding: 10px 15px;
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+}
+
+button:hover{
+	background: white;
+	color: #076599;
+}
+
+.fa-meetup{
+	float: left;
+	height: 300px;
+	padding-top: 7%;
+	padding-left: 10%;
+	font-size: 7em;
+}
+
+footer{
+	background: #333;
+	color: white;
+	font-size: 18px;
+	padding: 17px 28% 13px 28%; 
+}
+
+footer p{
+	margin-bottom: 0;
+}
+
+footer p a{
+	text-decoration: none;
+	color: white;
+}
+
+footer p a:hover{
+	text-decoration: none;
+	color: #ffff4d;
+}
+
+#left-side, #right-side{
+	font-size: 20px;
+}
+
+#left-side{
+	padding-left: 0;
+	padding-right: 50px;
+}
+
+#right-side{
+	background: #076599;
+	color: white;
+	height: 450px;
+	padding-top: 50px;
+	margin-top: 30px;
+	padding-left: 30px;
+}
+
+.fa-linode, .fa-telegram, .fa-superpowers{
+	font-size: 7rem;
+	padding-left: 90px;
+	color: #076599;
+}
+
+.col-4 p{
+	font-size: 22px;
+
+}
+
+#descrip{
+	font-size: 20px;
+}
+
+#c-cont{
+	background: #076599;
+	color: white;
+	font-size: 20px;
+	padding: 40px;
+}
+
+#c-cont .col-6 p{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#c-cont .col-6 h3{
+	font-weight: 300;
+}
+
+#c-cont .col-6{
+	padding: 5px;
+}
+
+#d-cont{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#d-cont h3{
+	color: #076599;
+	font-weight: 400;
+}
+
+input{
+	width: 100%;
+	height: 50px;
+}
+
+::placeholder{
+	font-size: 20px;
+	opacity: 0.8;
+	padding-left: 10px;
+}
+
+textarea{
+	width: 100%;
+	height: 200px;
+}
+
+form button{
+	color: white;
+	font-size: 20px;
+	margin-left: 64%;
+	padding: 10px 50px;
+	margin-top: 10px;
+}
+
+form{
+	width: 88%;
+}
+
+#lrow{
+	padding-left: 0;
+}
+
+#rrow{
+	padding-left: 0;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#rrow p{
+	margin-bottom: 0;
+}
+
+.empty{
+	background: #e6e6e6;
+	width: 100%;
+	height: 350px;
+}
+
+#pre p{
+	margin-bottom: 10px;
+	color: #076599;
+}
+
+#pre p a{
+	text-decoration: none;
+	color: #076599;
+}
+
+#pre p a:hover{
+	color: #076599;
+}
+
+.preview{
+	background: #e6e6e6;
+	color: #076599;
+	padding: 10px 40px;	
+}
+
+.download{
+	padding: 10px 40px;
 }
